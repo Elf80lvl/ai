@@ -1,6 +1,6 @@
 {
-    "name": "ai_list",
-    "short_name": "ai_list",
+    "name": "AI List",
+    "short_name": "AI List",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
