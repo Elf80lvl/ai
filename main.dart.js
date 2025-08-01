@@ -42138,10 +42138,11 @@ A.apK.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=null
 if(b instanceof A.zT)return B.Co
 else if(b instanceof A.hi){s=this.a
-s.f=b.a
-r=s.d
-if(r==="vT9!pQ2@rX7#sL4")$.J2=!0
-s.a6W(r)
+r=b.a
+s.f=r
+q=s.d
+if(q.length===0)s.e=r
+if(q==="vT9!pQ2@rX7#sL4")$.J2=!0
 r=t.p
 q=A.b([A.bI(""+J.bX(s.e)+" items",j,j,j,A.cl(j,j,A.U(a).ok.Q.b,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)],r)
 if(s.d.length!==0)q.push(A.bI(", ",j,j,j,A.cl(j,j,A.U(a).ok.Q.b,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j))
@@ -42164,7 +42165,8 @@ return A.aD2(!1,s,s,s,!0,s,!0,s,s,s,s,!1,s,s,s,s,s,new A.t1(r.e,b,new A.cN(q,t.N
 $S:307}
 A.apL.prototype={
 $1(a){var s=this.a
-s.ag(new A.apI(s,a))},
+s.ag(new A.apI(s,a))
+s.a6W(s.d)},
 $S:49}
 A.apI.prototype={
 $0(){this.a.d=this.b},
@@ -42377,7 +42379,7 @@ q.push(A.bI(this.c,s,s,s,A.cl(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s
 return A.axH(A.hw(q,B.ai,B.a2,B.aE),this.d,r)}}
 A.pf.prototype={
 I(a){var s=null,r=A.bf(a,s,t.w).w.a.a<=800?B.jc:B.mV
-return A.a3q(s,s,A.CI(new A.bH(r,new A.dz(new A.a3(0,600,0,1/0),A.iQ(A.b([A.bI("AI List",s,s,s,A.cl(s,s,s,s,s,s,s,s,s,s,s,22,s,s,B.dw,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cE(s,8,s),new A.DF("About this app",s),A.bI("A curated independent list of AI tools and resources. Designed to help you find the resource you need as conveniently, free and quickly as possible. Managed and updated daily.",s,s,s,A.cl(s,s,A.U(a).ok.Q.b,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cE(s,8,s),new A.DF("Donation",s),A.bI("This app has no ads, no tracking, and no data collection. If you find it useful, consider supporting the development with a donation. Thank You!",s,s,s,A.cl(s,s,A.U(a).ok.Q.b,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cE(s,6,s),new A.L2(s),A.cE(s,32,s),A.bI("0.3.3",s,s,s,A.cl(s,s,A.U(a).ok.Q.b,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.bl,B.a2,B.aE),s),s),s,B.an),s,s,s,B.kG,s,s,s)}}
+return A.a3q(s,s,A.CI(new A.bH(r,new A.dz(new A.a3(0,600,0,1/0),A.iQ(A.b([A.bI("AI List",s,s,s,A.cl(s,s,s,s,s,s,s,s,s,s,s,22,s,s,B.dw,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cE(s,8,s),new A.DF("About this app",s),A.bI("A curated independent list of AI tools and resources. Designed to help you find the resource you need as conveniently, free and quickly as possible. Managed and updated daily.",s,s,s,A.cl(s,s,A.U(a).ok.Q.b,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cE(s,8,s),new A.DF("Donation",s),A.bI("This app has no ads, no tracking, and no data collection. If you find it useful, consider supporting the development with a donation. Thank You!",s,s,s,A.cl(s,s,A.U(a).ok.Q.b,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.cE(s,6,s),new A.L2(s),A.cE(s,32,s),A.bI("0.3.4",s,s,s,A.cl(s,s,A.U(a).ok.Q.b,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.bl,B.a2,B.aE),s),s),s,B.an),s,s,s,B.kG,s,s,s)}}
 A.DF.prototype={
 I(a){var s=null
 return new A.bH(B.F_,A.bI(this.c,s,s,s,A.cl(s,s,s,s,s,s,s,s,s,s,s,16,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s)}}
